@@ -1,0 +1,11 @@
+1. Create array to function as grid with each cell as a separate, changeable variable using ‘let’.
+2. Use function to randomly fill grid with cells either dead or alive. Use math.Random to create random numbers between 0 and 1 and math.Round to ensure they are rounded to integers of either 0 or 1. Fill grid with these randomly generated numbers.
+3. Cell variables are set to either 0 (dead) or 1 (alive).
+4. If 0, set cell colour #FFFFFF; if 1, set cell colour #000000.
+5. Use switch/case to create 3 different cases to fit with each scenario.
+5.1 Case 1 - If cell has fewer than 2 or more than 3 neighbours, cell dies.
+5.2 Case 2 - If cell has 2 or 3 neighbours, cell survives.
+5.3 Case 3 - If cell is empty and has 3 or more neighbours, cell is created.
+6. Iterate through rows and columns to check whether the cell is 0 or 1 and for its neighbouring cells in order to carry out cases.
+7. Print array to screen using console.log.
+8. Set timer to run cases every 0.5 seconds to implement game.
